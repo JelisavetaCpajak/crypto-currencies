@@ -88,7 +88,8 @@ export const Favorites = ({ listOfFavorites }) => {
                       align="right"
                       style={{ width: 100 }}
                     >
-                      {currency.DAILY_CHANGE_RELATIVE.toFixed(2) * 100 + "%"}
+                      {currency.DAILY_CHANGE_RELATIVE}
+                      {"%"}
                     </TableCell>
                     <TableCell
                       component="th"
